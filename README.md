@@ -2,6 +2,10 @@
 
 **将图片/截图转换为全矢量可编辑 PPTX** — 通过本地 Codex CLI 调用 `@oai/artifact-tool`，利用 skia-canvas 精确字体度量引擎实现像素级还原。
 
+> 📦 **本仓库是 [ai-pptx-generator](https://github.com/CaoYongshengcys/ai-pptx-generator) 生态的一部分。**
+> 如果你需要更通用的 PPT 生成能力（文字→PPT、论文→PPT、数据→PPT、图片→PPT 四合一），请使用 [ai-pptx-generator](https://github.com/CaoYongshengcys/ai-pptx-generator)。
+> 如果需要离线方案（不依赖 Codex/API），请使用 [image2pptx-native](https://github.com/CaoYongshengcys/image2pptx-native)。
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/CaoYongshengcys/image2pptx-native/main/examples/tech_flowchart_2/original_inputs/source.png" width="45%" alt="Source"/>
   &nbsp;&nbsp;→&nbsp;&nbsp;
